@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IA Sostenible - Megamentes</title>
+  <link rel="stylesheet" href="holi2.css">
+</head>
+<body>
+  <header>
+    <h1> MEGAMENTES </h1>
+    <p>Reducción del impacto ambiental en inteligencia artificial</p>
+    
+    <video controls width="800" style="margin: 2rem auto; display: block;">
+      <source src="Video proyecto.mp4" type="video/mp4">
+    </video>
+  </header>
+
+  <main>
+    <section id="presentacion">
+      <h2>Presentación del Grupo</h2>
+      <p><strong>Megamentes</strong> es un grupo formado por cinco estudiantes comprometidos con la tecnología responsable: Yeray, Cosme, José María, Djaafer y Pau.</p>
+      <p>Estamos convencidos de que es posible desarrollar inteligencia artificial de forma sostenible, uniendo innovación y conciencia ecológica.</p>
+      <p><strong>Contacto:</strong><br>
+      Correo: contacto@megamentes.tech<br>
+      Teléfono: +34 912 345 678<br>
+      Instagram: <a href="https://instagram.com/megamentes_ia" target="_blank">@megamentes_ia</a></p>
+    </section>
+
+    <section id="necesidad">
+      <h2>Necesidad (Pertinencia)</h2>
+      <h3>¿Qué problema cubre nuestra propuesta?</h3>
+      <p>Abordamos el alto impacto medioambiental del uso intensivo de la inteligencia artificial, centrado en el elevado consumo energético y la huella de carbono.</p>
+    
+      <h3>¿A quién va destinada?</h3>
+      <p>Empresas tecnológicas, centros de datos, investigadores y desarrolladores de IA comprometidos con la sostenibilidad.</p>
+    
+      <h3>Importancia para el destinatario</h3>
+      <p>La eficiencia energética es clave frente a la presión regulatoria, social y económica que enfrentan los usuarios de IA.</p>
+    
+      <img src="imagen.jpg" alt="Descripción de la imagen" style="max-width: 50%; height: auto; display: block; margin: 20px auto;">
+    </section>
+
+    <section id="solucion">
+      <h2>Aproximación a la Solución (Sostenibilidad)</h2>
+      <h3>Nuestra solución</h3>
+      <p>Aplicamos técnicas como poda de redes neuronales, cuantización y aprendizaje federado, promoviendo energías renovables en centros de datos.</p>
+    
+      <h3>¿Cómo resolvemos el problema?</h3>
+      <p>Reducimos el consumo energético sin afectar el rendimiento, mediante optimización algorítmica, hardware eficiente y estrategias energéticamente sostenibles.</p>
+    
+      <h3>¿Cómo lo ofrecemos?</h3>
+      <p>Con herramientas de software, consultoría y certificaciones que avalan la sostenibilidad de los sistemas de IA.</p>
+    
+      <h3>Sostenibilidad del proyecto</h3>
+      <p>Integramos software, infraestructura eficiente y prácticas responsables con métricas transparentes sobre el impacto ambiental.</p>
+    
+      <img src="imagenCerebro.webp" alt="Descripción de la imagen" style="max-width: 50%; height: auto; display: block; margin: 20px auto;">
+    </section>
+
+    <section id="beneficios">
+      <h2>Beneficios (Originalidad)</h2>
+      <h3>¿Qué aportamos?</h3>
+      <ul>
+        <li>Reducción del consumo energético y huella de carbono.</li>
+        <li>Disminución de costos operativos.</li>
+        <li>Mantener el rendimiento de los modelos.</li>
+        <li>Cumplimiento con normativas ambientales emergentes.</li>
+      </ul>
+    
+      <h3>¿Cómo funciona?</h3>
+      <ol>
+        <li><strong>Optimización algorítmica:</strong> Poda, cuantización y aprendizaje federado.</li>
+        <li><strong>Infraestructura eficiente:</strong> Hardware especializado y uso de energías renovables.</li>
+        <li><strong>Herramientas de monitoreo:</strong> Plataforma para evaluar y mejorar el impacto en tiempo real.</li>
+      </ol>
+    
+      <h3>Mejoras frente al modelo actual</h3>
+      <ul>
+        <li>Modelos más ligeros y eficientes.</li>
+        <li>Uso de energías renovables.</li>
+        <li>Reducción del desperdicio computacional sin comprometer precisión.</li>
+      </ul>
+    
+      <img src="ImagenAaaa.png" alt="Descripción de la imagen" style="max-width: 30%; height: auto; display: block; margin: 20px auto;">    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Megamentes - Proyecto educativo sobre IA sostenible</p>
+  </footer>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const sections = document.querySelectorAll('section');
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) {
+            entry.target.style.opacity = 0;
+          } else {
+            entry.target.style.opacity = 1;
+          }
+        });
+      }, { threshold: 0.3 });
+
+      sections.forEach(section => observer.observe(section));
+    });
+  </script>
+</html>
